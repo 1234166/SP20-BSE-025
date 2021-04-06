@@ -12,9 +12,9 @@ package lab.pkg6.oop;
 public class Runner {
     public static void main(String []args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter first Num: ");
+        System.out.print("Enter First Num: ");
          calculator.Var1 = input.nextDouble();
-          System.out.print("Enter first Num: ");
+          System.out.print("Enter Second Num: ");
         calculator.Var2 = input.nextDouble();
         System.out.println("The sum OF two numbers is: " +calculator.sum());
         System.out.println("Multiplication of two numbers is: " + calculator.multiply());
